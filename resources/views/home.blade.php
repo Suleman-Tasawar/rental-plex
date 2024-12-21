@@ -11,6 +11,9 @@
     <section id="movies" class="py-16">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-semibold mb-12">Popular Movies</h2>
+            @if($movies->isempty())
+                <p>No Movies Available to rent</p>
+            @else
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-content-center">
                 @foreach($movies as $movie)
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -26,6 +29,7 @@
                     </div>
                 @endforeach
             </div>
+            @endif
         </div>
     </section>
 </x-layout>

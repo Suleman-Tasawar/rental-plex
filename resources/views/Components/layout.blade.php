@@ -11,9 +11,8 @@
 
     <nav class="bg-gray-800 text-white p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-2xl font-semibold">Rental Plex</a>
+            <a href="/" class="text-2xl font-semibold">Rental Plex</a>
             <ul class="flex  flex-col lg:flex-row">
-                <li class="ml-3"><a href="/" class="hover:text-yellow-500">Home</a></li>
                 <li class="ml-3"><a href="/contact" class="hover:text-yellow-500">Contact</a></li>
                 <li class="ml-3"><a href="/admin/movies" class="hover:text-yellow-500">Admin</a></li>
             </ul>
